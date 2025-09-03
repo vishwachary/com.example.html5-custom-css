@@ -26,3 +26,36 @@ Coomand to run , with temp folder outside your dia dir
 .\dita-ot-3.7.4\bin\dita -i mymap.ditamap -f html5-custom-css -o out-html5 --temp C:\Ddrive\my-temp
 
 
+how does developer like me konw about this <div class="note custom-note">
+
+Step 1: Start from your DITA source
+<p>This is a paragraph.</p>
+
+<note type="tip">
+  Always validate your XML.
+</note>
+
+<ul>
+  <li>First</li>
+  <li>Second</li>
+</ul>
+
+Step 2: Build with html5 and inspect the output
+
+Inspect the generated HTML
+
+Build your DITA map with the default html5 transtype.
+
+Open the output in a browser.
+
+Right-click → Inspect → check the DOM.
+
+You’ll see exactly what DITA-OT emitted.
+
+Example for a plain <note>:
+<div class="note">
+  <span class="note__title">Note</span>
+  <div class="note__body">
+    <p>Some important information.</p>
+  </div>
+</div>
