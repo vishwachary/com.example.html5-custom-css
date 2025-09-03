@@ -19,4 +19,8 @@ step 4
 
 create plugin.xml file
 
+Coomand to run , with temp folder outside your dia dir
+
+.\dita-ot-3.7.4\bin\dita -i mymap.ditamap -f html5-custom-css -o out-html5 --temp C:\Ddrive\my-temp
+
 
